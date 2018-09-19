@@ -81,6 +81,9 @@ PostgreSQL使用起来更加简单。它支持master和slave，但不支持跨DC
 Kong技术架构
 Kong把所有的通用功能集中到了一个地方，这就让service的开发变得更加的轻松简单，你只需要安心的关注和业务紧相关的事情。
 
+![image](https://github.com/starzjl/kong/blob/master/images/技术架构.png)
+
+
 在使用Kong之前API架构存在的问题：
 
 通用模块在各API中没有复用
