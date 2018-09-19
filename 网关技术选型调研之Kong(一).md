@@ -56,6 +56,8 @@ Kong集群中的节点通过gossip协议自动发现其他节点，当通过一�
 
 Kong的整体流程架构如下图所示：
 
+![image](https://github.com/starzjl/kong/blob/master/images/流程图.png)
+
 
 Kong = OpenResty +NGINX
 
