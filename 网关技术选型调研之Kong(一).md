@@ -44,6 +44,8 @@ Kong包 可运行在某些 Linux 发行版、Mac OS X 和 Docker 中，无论是
 
 除了免费的开源版本，Mashape 还提供了付费的 企业版 ，其中包括技术支持、使用培训服务以及 API 分析插件。
 
+![image](https://github.com/starzjl/kong/blob/master/images/原理.png)
+
 
 Kong核心基于OpenResty构建，实现了请求/响应的Lua处理化；
 Kong插件拦截请求/响应，如果接触过Java Servlet，等价于拦截器，实现请求/响应的AOP处理；
