@@ -58,6 +58,7 @@ Kong的整体流程架构如下图所示：
 
 ![image](https://github.com/starzjl/kong/blob/master/images/流程图.png)
 
+![image](https://github.com/starzjl/kong/blob/master/images/openresty.png)
 
 Kong = OpenResty +NGINX
 
