@@ -28,6 +28,8 @@ Kong具有以下特点：
 请求工作流
 为了更好的理解Kong这个系统，下面是一个典型API的请求工作流:
 
+![image](https://github.com/starzjl/kong/blob/master/images/kong-simple.png)
+
 一旦Kong在运行，每个请求所作出的API将先请求Kong服务器，然后它会被代理到最终的API。这些插件在 API 请求响应循环的生命周期中被执行。Kong将有效地将成为每个API请求的入口点。
 
 Kong 是在客户端和（微）服务间转发API通信的API网关，通过插件扩展功能。Kong 有两个主要组件：
